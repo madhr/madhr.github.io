@@ -241,3 +241,5 @@ With k-means clustering we can group our input data set into clusters. This meth
 There are many ways of calculating statistical dispersion for clusters. I've chosen standard deviation, but variation or interquartile range can also be used. 
 
 See full code at <a href="https://github.com/madhr/kmeans-clustering">github</a>
+
+All images (C) Magda Hrebecka
