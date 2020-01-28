@@ -1,1 +1,16 @@
-theme: jekyll-theme-cayman
+title: madhr.github.io
+author: Magda Hrebecka
+email: magdahrebecka@gmail.com
+description: >- 
+  Blogging about code, data, algorithms and related topics. Interested in coding, data, synthesizers and analog photography.
+baseurl: "" 
+url: "" 
+
+soundcloud_username: "magyarne"
+github_username: "madhr"
+tumblr_username: "ciociowe"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
