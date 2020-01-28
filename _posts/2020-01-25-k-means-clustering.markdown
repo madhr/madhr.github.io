@@ -49,13 +49,13 @@ When we have a set of some data points that have features and values. We want to
 
 <h4>How does it work?</h4>
 
-We start by randomly picking k data points (k is set beforehand) called centroids from our data set. All remaining points are then assigned to one of these centroids. Assignment is done based on the distance - closest centroid is picked. For each centroid and its data points we calculate average value - a new centroid. The process of assign - calculate distance - update centroids is repeated n times, until a desired result is reached. How to know when we achieved that - this will be covered later on in this article.
+We start by randomly picking k data points (k is set beforehand) called centroids from our data set. All remaining points are then assigned to one of these centroids. Assignment is done based on the distance - closest centroid is picked. For each centroid and its data points we calculate average value - a new centroid. The process of assign - calculate distance - update centroids is repeated n times, until a desired result is reached. How to know if we achieved that - this will be covered later on in this article.
 
 Let’s look into the details:
 
 <h4>Step 1 Read Data</h4>
 
-In our case, the input data set is a .jpg file. We’ll have to extract each pixel’s value from the image. We’ll use a <i>getRGB(int x, int y)</i> method from Java’s <i>BufferedImage</i>.
+In our case, the input data set is a .jpg file. We’ll have to extract each pixel’s `value` from the image. We’ll use a `getRGB(int x, int y)` method from Java’s `BufferedImage`.
 
 {% highlight java %}
 public class Point {
@@ -185,7 +185,7 @@ public Map<Centroid,List<Point>> updateCentroids(Map<Centroid,List<Point>> centr
 
 <h4>Repeat steps 3-5</h4>
 
-Repeat those steps until desired result is reached. How to know when we’ve reached it - see paragraph Determine the optimal number of repeats
+Repeat those steps until desired result is reached.
 
 <h4>Determine the optimal value of K</h4>
 
@@ -226,9 +226,9 @@ First, let's try setting k values from 2 to 8 on this image. These are the resul
 {% endfor %} k = 8
 <br><br>
 
-We can see that for small k values colors seem quite random and every time value of k gets increased, the color set feels more like matching the image's palette. It's also visible that the variation between colors gets smaller and smaller. By looking at these samples we can actually see it and recognize it, but how would we do that if out features were not colors, but some numbers?
+We can see that for small k values colors seem quite random and every time value of k gets increased, the color set feels more like matching the image's palette. It's also visible that the variation between colors gets smaller and smaller. By looking at these samples we can actually see it and recognize it, but how would we do that if out features were not colors, but some other data types?
 
-To determine optimal value of K, we'll use `elbow method`. We'll plot clusters' average dispersion (standard deviation in our case) and increasing k values. 
+To determine optimal value of k, we'll use an `elbow method`. We'll plot clusters' average dispersion (standard deviation in our case) and increasing k values. 
 
 <img src="{{site.baseurl}}/assets/img/elbow-graph.svg" style="width: 100%" alt="Elbow method for optimal k">
 
