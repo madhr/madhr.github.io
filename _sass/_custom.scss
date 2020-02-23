@@ -1,0 +1,44 @@
+.column {
+  float: left;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.column-slimmer {
+	width: 33.33%;
+	position:relative;
+  margin:0 auto;
+}
+
+.column-wider {
+	width: 66.67%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.avatar {
+	position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay:hover {
+	opacity:0;
+}
+
+
+
+.bio {
+	padding-left: 10px;
+}
+
+
+
