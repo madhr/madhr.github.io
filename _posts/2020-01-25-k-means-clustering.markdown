@@ -3,8 +3,9 @@ layout: post
 title:  "Using K-Means Clustering to generate color palette for images"
 abstract: "This post tells you what is k-means clustering, when to use it and how to use it, with example code snippets. It also includes an explanation on how to fine-tune the results you’ll get."
 date:   2020-01-25 14:38:32 +0100
+thumbnail: kmc-thumbnail.jpg
 categories: machine-learning
-blabla: "dd"
+author: Magda Hrebecka
 ---
 
 <h4>Intro</h4>

@@ -34,11 +34,25 @@
 	opacity:0;
 }
 
-
-
-.bio {
+.post-text {
 	padding-left: 10px;
 }
 
+.post-list li{
+  height: 100%;
+}
 
+@media screen and (max-width: 600px) {
 
+  .column {
+    float: none;
+  }
+
+  .column-slimmer {
+    width: 0%;
+  }
+
+  .column-wider {
+    width: 100%;
+  }
+}

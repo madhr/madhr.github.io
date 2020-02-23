@@ -4,6 +4,8 @@ title:  "Song generator based on weather forecast"
 abstract: "Python script that creates midi songs based on weather forecast for given location."
 date:   2020-02-13 21:37:32 +0100
 categories: python midi weather generator
+thumbnail: pywth-thumbnail.jpg
+author: Magda Hrebecka
 ---
 
 Writing music, huh? Why would anyone do it manually, when we have computers?

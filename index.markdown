@@ -4,7 +4,7 @@ layout: home
 
 <div class="row">
   <div class="column column-wider">
-	  <div class="bio">
+	  <div class="post-text">
 	  	<h2>Magda Hrebecka</h2>
 	  	<h4>Software Developer, London</h4>
 	  	<p>
