@@ -4,7 +4,7 @@ title:  "Markov chain melody generator"
 abstract: "Using Markov chain to generate music sequences."
 date:   2020-03-07 19:42:34 +0100
 categories: python midi markov-chain generator
-thumbnail: markov-thumbnail.jpg
+thumbnail: thumbnails/markov-thumbnail.jpg
 author: Magda Hrebecka
 ---
 
