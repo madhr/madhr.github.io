@@ -8,7 +8,7 @@ layout: home
 	  	<h2>Magda Hrebecka</h2>
 	  	<h4>Software Developer, London</h4>
 	  	<p>
-	  		I'm a backend developer currently working for Bleep/Ochre. Interested in coding, data, synthesizers and analog photography.
+	  		I'm a backend engineer currently working for Thought Machine. Interested in coding, data, synthesizers and analog photography.
 	  	</p>
 	  	<p>
 	  		magdahrebecka@gmail.com
