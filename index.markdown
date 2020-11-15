@@ -6,7 +6,7 @@ layout: home
   <div class="column column-wider">
 	  <div class="post-text">
 	  	<h2>Magda Hrebecka</h2>
-	  	<h4>Software Developer, London</h4>
+	  	<h4>Software Engineer, London</h4>
 	  	<p>
 	  		I'm a backend engineer currently working for Thought Machine. Interested in coding, data, synthesizers and analog photography.
 	  	</p>
